@@ -13,8 +13,8 @@
 
 ### Demo :
 
-![Web Site Image](https://github.com/anitha-nagadasarink/04-Digital-Marketing-Home-page/blob/HTML-CSS-Projects/assets/demo.png)
+![Web Site Image](https://github.com/anitha-nagadasarink/05-Crypto-Landing-page/blob/HTML-CSS-Projects/assets/demo.png)
 
 ### You can Check it Live on Below Link :
 
-[Live Link !](https://new-digital-marketing-webpage.netlify.app/)
+[Live Link !](https://new-crypto-landing-page.netlify.app/)
