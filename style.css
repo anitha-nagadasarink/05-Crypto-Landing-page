@@ -1,0 +1,135 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #ffffff;
+  font-size: 16px;  
+}
+
+button{
+  cursor: pointer;
+}
+
+/* Navbar */
+
+section[aria-label ='navbar']{
+  display: block;
+  width: 100%;  
+  padding: 15px 0; 
+  background-color: #000000;
+}
+
+.navbar {
+  max-width: 80%;
+  margin: auto;
+}
+
+.navbar::after  {
+  display: table;
+  content: ' ';
+  clear: both;
+}
+
+.navbar > div {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.navbar > div:first-child{
+  width: 12%;
+}
+.navbar > div.line{
+  width: 1px;
+  height: 44px;
+  background-color: #ffffff;
+}
+
+.grow-list + div {
+  float: right;
+}
+
+.navbar > div:nth-child(3){
+  width: 60%;
+  margin-top: 10px;
+}
+
+
+
+.navbar img {
+  width: 80px;
+  margin-top: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0; 
+}
+
+.list li {
+  display: inline-block;
+  margin-left: 40px;
+
+}
+
+.list .list-item:first-child{
+  position: relative;
+  padding-right: 25px;
+}
+.list .list-item:first-child::after{
+  position: absolute;
+  content: '';
+  width: 15px;
+  height: 15px;
+  right: 0;
+  top: 10px;
+  background: url('./assets/down-arrow.png') no-repeat; 
+}
+.button-small {
+  padding: 6px 20px;
+  border-radius: 8px;
+  background-color: #ba0cc5;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Banner */
+section[aria-label = 'hero']{
+  width: 100%;
+  padding: 300px  0;  
+  background: url('./assets/bg.png') no-repeat;
+  background-position: 100%;
+  text-align: center;
+}
+
+.hero {
+  max-width: 50%;
+  margin: auto; 
+}
+
+.hero-heading  {
+  font-family: 'Montserrat';
+  font-size: 62px;
+  line-height: 1.2;
+}
+
+.hero-description {
+  margin-bottom: 25px; 
+  font-size: 20px;
+}
+
+.button-large {
+  padding: 15px 16px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #ba0cc5;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 600;
+}
